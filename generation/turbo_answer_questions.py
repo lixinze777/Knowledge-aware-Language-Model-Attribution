@@ -76,7 +76,7 @@ def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--prompt_path", type = str, default = "../prompt/answer_question_simple_prompt.json", help = "Path to the prompt file")
-    parser.add_argument("--input_path", type = str, default = "simple_question_graph.json", help = "Path to the input file")
+    parser.add_argument("--input_path", type = str, default = "../dataset/simple_question_graph.json", help = "Path to the input file")
     parser.add_argument("--output_path", type = str, default = "../outputs/turbo_temp05_simple_1009.csv", help = "Path to the output file")
     parser.add_argument("--temperature", type=float, default=0.5, help= "Temperature for decoding")
     parser.add_argument("--top_p", type=float, default=1.0, help= "Nucleus sampling top-p")
