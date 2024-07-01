@@ -77,7 +77,7 @@ if __name__ == "__main__":
     parser.add_argument("--max_new_tokens", type=int, default=500, help="Max number of new tokens to generate in one step")
     parser.add_argument("--max_length", type=int, default=2048, help="Max length the model can take. Should set properly wrt the model to avoid position overflow.")
     parser.add_argument("--prompt_path", type = str, default = "../prompt/generate_prompt_sentlevel.json", help = "Path to the prompt file")
-    parser.add_argument("--input_path", type = str, default = "../rerank/questions_selected_graphs.json", help = "Path to the input file")
+    parser.add_argument("--input_path", type = str, default = "../dataset/simple_question_graph.json", help = "Path to the input file")
     parser.add_argument("--output_path", type = str, default = "../outputs/alpaca_7b_0616", help = "Path to the output file")
     parser.add_argument("--model_name", default="../open_LLM/alpaca-7b", choices=["../open_LLM/alpaca-7b", "../open_LLM/vicuna-13b", "../open_LLM/LLaMA/llama-13b", "../open_LLM/LLaMA/llama-7b"], type=str)
     parser.add_argument("--batch_size_ICL", default=5, type=int)
