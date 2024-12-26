@@ -1,5 +1,7 @@
 # Towards Verifiable Generation: A Benchmark for Knowledge-aware Language Model Attribution
 
+## Paper Link
+[Download Paper](https://aclanthology.org/2024.findings-acl.28.pdf)
 
 ## Citation
 Please cite our paper if you use KaLMA in your work:
